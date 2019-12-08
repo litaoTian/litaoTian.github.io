@@ -7,17 +7,16 @@
   
   
   
-  <title>mysql | liTao Tian</title>
+  <title>mybatis动态SQL | liTao Tian</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="MdEditor的功能列表演示标题H1标题H2标题H3标题H4标题H5标题H5字符效果和横线等">
-<meta name="keywords" content="sql">
+  <meta name="description" content="1.mybatis_config.xml1234567891011121314151617181920212223242526&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&amp;gt;&amp;lt;!DOCTYPE configuration        PUBLIC &quot;-&#x2F;&#x2F;mybatis.org&#x2F;&#x2F;DTD Config 3.0&#x2F;&#x2F;EN&quot;        &quot;http:&#x2F;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="mysql">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;20&#x2F;mysql&#x2F;index.html">
+<meta property="og:title" content="mybatis动态SQL">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;mybatis%E5%8A%A8%E6%80%81SQL&#x2F;index.html">
 <meta property="og:site_name" content="liTao Tian">
-<meta property="og:description" content="MdEditor的功能列表演示标题H1标题H2标题H3标题H4标题H5标题H5字符效果和横线等">
+<meta property="og:description" content="1.mybatis_config.xml1234567891011121314151617181920212223242526&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&amp;gt;&amp;lt;!DOCTYPE configuration        PUBLIC &quot;-&#x2F;&#x2F;mybatis.org&#x2F;&#x2F;DTD Config 3.0&#x2F;&#x2F;EN&quot;        &quot;http:&#x2F;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-11-20T14:51:45.074Z">
+<meta property="og:updated_time" content="2019-11-25T02:33:43.789Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="liTao Tian" type="application/atom+xml">
@@ -269,11 +268,11 @@
         </header>
     </div>
 </nav>
-      <div class="body-wrap"><article id="md-mysql" class="article article-type-md" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-mybatis动态SQL" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a  href="/2019/11/20/mysql/" class="article-date">
-      <time datetime="2019-11-20T14:07:07.000Z" itemprop="datePublished">2019-11-20</time>
+      <a  href="/2019/11/21/mybatis%E5%8A%A8%E6%80%81SQL/" class="article-date">
+      <time datetime="2019-11-21T09:17:11.171Z" itemprop="datePublished">2019-11-21</time>
 </a>
 
     </div>
@@ -287,7 +286,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      mysql
+      mybatis动态SQL
     </h1>
   
 
@@ -298,10 +297,6 @@
         
 
         
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sql/" rel="tag">sql</a></li></ul>
-    </div>
-
         <div class="clearfix"></div>
       </div>
       
@@ -309,7 +304,17 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="MdEditor的功能列表演示"><a href="#MdEditor的功能列表演示" class="headerlink" title="MdEditor的功能列表演示"></a>MdEditor的功能列表演示</h2><h1 id="标题H1"><a href="#标题H1" class="headerlink" title="标题H1"></a>标题H1</h1><h2 id="标题H2"><a href="#标题H2" class="headerlink" title="标题H2"></a>标题H2</h2><h3 id="标题H3"><a href="#标题H3" class="headerlink" title="标题H3"></a>标题H3</h3><h4 id="标题H4"><a href="#标题H4" class="headerlink" title="标题H4"></a>标题H4</h4><h5 id="标题H5"><a href="#标题H5" class="headerlink" title="标题H5"></a>标题H5</h5><h6 id="标题H5-1"><a href="#标题H5-1" class="headerlink" title="标题H5"></a>标题H5</h6><h3 id="字符效果和横线等"><a href="#字符效果和横线等" class="headerlink" title="字符效果和横线等"></a>字符效果和横线等</h3>
+        <h2 id="1-mybatis-config-xml"><a href="#1-mybatis-config-xml" class="headerlink" title="1.mybatis_config.xml"></a>1.mybatis_config.xml</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE configuration</span></span><br><span class="line"><span class="meta">        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"</span></span><br><span class="line"><span class="meta">        "http://mybatis.org/dtd/mybatis-3-config.dtd"&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">configuration</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--给返回值类型添加别名--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">typeAliases</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">package</span> <span class="attr">name</span>=<span class="string">"com.pojo"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">typeAliases</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--数据库连接配置--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">environments</span> <span class="attr">default</span>=<span class="string">"development"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">environment</span> <span class="attr">id</span>=<span class="string">"development"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">transactionManager</span> <span class="attr">type</span>=<span class="string">"JDBC"</span>/&gt;</span><span class="comment">&lt;!-- 连接方式JDBC--&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">dataSource</span> <span class="attr">type</span>=<span class="string">"POOLED"</span>&gt;</span>  <span class="comment">&lt;!-- 通过连接池--&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"driver"</span> <span class="attr">value</span>=<span class="string">"com.mysql.jdbc.Driver"</span> /&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"url"</span> <span class="attr">value</span>=<span class="string">"jdbc:mysql://127.0.0.1:3306/mybatis"</span> /&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"username"</span> <span class="attr">value</span>=<span class="string">"root"</span> /&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"password"</span> <span class="attr">value</span>=<span class="string">"123456"</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">dataSource</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">environment</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">environments</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--告诉 MyBatis 到哪里去找映射文件--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">mappers</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">package</span> <span class="attr">name</span>=<span class="string">"com.mapper"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">mappers</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-工厂类"><a href="#2-工厂类" class="headerlink" title="2.工厂类"></a>2.工厂类</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.factory;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.io.Resources;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.session.SqlSession;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.session.SqlSessionFactory;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.session.SqlSessionFactoryBuilder;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.io.InputStream;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Factory</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> SqlSessionFactory sqlSessionFactory = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> SqlSession session = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> SqlSession <span class="title">SqlSession</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            String resource = <span class="string">"mybatis_config.xml"</span>;</span><br><span class="line">            InputStream inputStream = Resources.getResourceAsStream(resource);</span><br><span class="line">            sqlSessionFactory = <span class="keyword">new</span> SqlSessionFactoryBuilder().build(inputStream);</span><br><span class="line">            session = sqlSessionFactory.openSession();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> session;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">closeSession</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (session != <span class="keyword">null</span>) &#123;<span class="comment">//关闭Sqlsession</span></span><br><span class="line">            session.close();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-IStudents-java"><a href="#3-IStudents-java" class="headerlink" title="3.IStudents.java"></a>3.IStudents.java</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.pojo.Students;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">IStudents</span> </span>&#123;</span><br><span class="line">    <span class="comment">//通过姓名，班级实现多条件查询</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Students&gt; <span class="title">selectByName_Class</span><span class="params">(String stuname,String stuclass)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-IStudents-xml"><a href="#4-IStudents-xml" class="headerlink" title="4.IStudents.xml"></a>4.IStudents.xml</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE mapper</span></span><br><span class="line"><span class="meta">        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"</span></span><br><span class="line"><span class="meta">        "http://mybatis.org/dtd/mybatis-3-mapper.dtd"&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Mybatis 中面向接口方式的编程，mapper声明文件必须与接口一致,也就是IStudents.xml和IStudents.java名字一样--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">mapper</span> <span class="attr">namespace</span>=<span class="string">"com.mapper.IStudents"</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--动态SQL--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">"selectByName_Class"</span> <span class="attr">resultType</span>=<span class="string">"com.pojo.Students"</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--默认情况下，按照的下标寻找--&gt;</span></span><br><span class="line">        select * from students where stuname=#&#123;0&#125; or stuclass=#&#123;1&#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">mapper</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+
       
     </div>
     
@@ -317,13 +322,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a  href="/2019/11/20/mysql/">mysql</a></p>
+        <p><span>本文标题:</span><a  href="/2019/11/21/mybatis%E5%8A%A8%E6%80%81SQL/">mybatis动态SQL</a></p>
         <p><span>文章作者:</span><a  href="/" title="访问 liTao Tian 的个人博客">liTao Tian</a></p>
-        <p><span>发布时间:</span>2019年11月20日 - 22时07分</p>
-        <p><span>最后更新:</span>2019年11月20日 - 22时51分</p>
+        <p><span>发布时间:</span>2019年11月21日 - 17时17分</p>
+        <p><span>最后更新:</span>2019年11月25日 - 10时33分</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2019/11/20/mysql/" title="mysql">http://yoursite.com/2019/11/20/mysql/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/11/20/mysql/　　作者: liTao Tian" title=""></span>
+            <span>原始链接:</span><a class="post-url" href="/2019/11/21/mybatis%E5%8A%A8%E6%80%81SQL/" title="mybatis动态SQL">http://yoursite.com/2019/11/21/mybatis%E5%8A%A8%E6%80%81SQL/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/11/21/mybatis%E5%8A%A8%E6%80%81SQL/　　作者: liTao Tian" title=""></span>
         </p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
@@ -334,18 +339,18 @@
 
 <nav id="article-nav">
   
-    <a  href="/2019/11/21/Android/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a  href="/2019/11/25/mybatis%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          Android
+          mybatis多表查询
         
       </div>
     </a>
   
   
-    <a  href="/2019/11/20/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a  href="/2019/11/21/Android/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Android</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -357,7 +362,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#MdEditor的功能列表演示"><span class="toc-number">1.</span> <span class="toc-text">MdEditor的功能列表演示</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#标题H1"><span class="toc-number"></span> <span class="toc-text">标题H1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#标题H2"><span class="toc-number">1.</span> <span class="toc-text">标题H2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#标题H3"><span class="toc-number">1.1.</span> <span class="toc-text">标题H3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#标题H4"><span class="toc-number">1.1.1.</span> <span class="toc-text">标题H4</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#标题H5"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">标题H5</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#标题H5-1"><span class="toc-number">1.1.1.1.1.</span> <span class="toc-text">标题H5</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字符效果和横线等"><span class="toc-number">1.2.</span> <span class="toc-text">字符效果和横线等</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-mybatis-config-xml"><span class="toc-number">1.</span> <span class="toc-text">1.mybatis_config.xml</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-工厂类"><span class="toc-number">2.</span> <span class="toc-text">2.工厂类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-IStudents-java"><span class="toc-number">3.</span> <span class="toc-text">3.IStudents.java</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-IStudents-xml"><span class="toc-number">4.</span> <span class="toc-text">4.IStudents.xml</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -430,13 +435,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a  href="/2019/11/21/Android/" title="上一篇: Android">
+            <a  href="/2019/11/25/mybatis%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2/" title="上一篇: mybatis多表查询">
                 <i class="fa fa-angle-left"></i>
             </a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a  href="/2019/11/20/hello-world/" title="下一篇: Hello World">
+            <a  href="/2019/11/21/Android/" title="下一篇: Android">
                 <i class="fa fa-angle-right"></i>
             </a>
         
